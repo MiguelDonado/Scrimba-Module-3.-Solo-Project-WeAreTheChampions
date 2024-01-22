@@ -1,0 +1,63 @@
+@font-face {
+    font-family: josefin;
+    src: url("fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+
+html, body {
+    background-color: #1B1924;
+    color: white;
+    font-family: josefin;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 390px;
+}
+
+img{
+    width:150px;
+    margin: 0 auto;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+textarea{
+    background: #444059;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 8px;
+    font-family: josefin;
+    font-size: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    min-height: 120px;
+}
+
+button{
+    background: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: #015288;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 20px;
+}
