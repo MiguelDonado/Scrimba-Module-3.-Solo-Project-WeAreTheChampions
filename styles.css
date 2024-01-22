@@ -61,3 +61,19 @@ button:hover{
 h3 {
     font-size: 20px;
 }
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+ul li{
+    background-color: white;
+    color: #1B1924;
+    font-size: 14px;
+    padding: 15px;
+    flex-grow: 1;
+}
